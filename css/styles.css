@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Fanwood+Text);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+
+article {
+  margin: 20px 0 0 0;
+}
+
+body {
+  color: #111;
+  font-family: 'Istok Web', sans-serif;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  padding: 20px 0;
+  font-family: 'Fanwood Text', serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fanwood Text', serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 220%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 110%;
+  line-height: 145%;
+}
+
+p {
+  font-size: 85%;
+  line-height: 155%;
+  margin-top: 10px;
+  width: 615px;
+}
+
+section {
+  border-left: 10px solid #777;
+  margin: 20px 0 20px 200px;
+  padding: 5px 0 20px 20px;
+}
+
+abbr[title], dfn[title] {
+  border: 0;
+}
+
+article h3 {
+  float: left;
+  width: 500px;
+}
+
+article h3 + h3 {
+  width: auto;
+}
+
+article p {
+  clear: both;
+}
+
+article h3 + p {
+  padding-top: 10px;
+}
+
+.smicon {
+    background: url("../images/social-media-icons.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin: 0 7px 0 0;
+    width: 16px;
+}
+.linkedin .smicon {
+    background-position: 0 0;
+}
+.twitter .smicon {
+    background-position: -16px 0;
+}
+.rss .smicon {
+    background-position: -32px 0;
+}
+.facebook .smicon {
+    background-position: -48px 0;
+}
+.pdf .smicon {
+    background-position: -64px 0;
+}
+.github .smicon {
+    background-position: -80px 0;
+}
+
+#container {
+  border: 0;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact {
+  border: 0;
+  margin: 0 auto;
+  padding: 0;
+  position: fixed;
+  top: 20px;
+  width: 180px;
+}
+
+#contact h3,
+#contact ul {
+  margin-top: 20px;
+}
+
+#contact ul {
+  list-style-type: none;
+}
+
+#contact ul li {
+  float: left;
+  margin-top: 5px;
+}
+
+#contact ul li a {
+  color: #111;
+  font-family: 'Fanwood Text', serif;
+  text-decoration: none;
+}
+
+#contact ul li a.linkedin:hover,
+#contact ul li a.linkedin:active {
+  color: #8fce00;
+}
+
+#contact ul li a.twitter:hover,
+#contact ul li a.twitter:active {
+  color: #f7c800;
+}
+
+#contact ul li a.github:hover,
+#contact ul li a.github:active {
+  color: #ca6c00;
+}
+
+#contact ul li a.pdf:hover,
+#contact ul li a.pdf:active {
+  color: #2aa0ec;
+}
+
+#objective {
+  border-color: #8fce00;
+}
+
+#specialties {
+  border-color: #f7c800;
+}
+
+#experience {
+  border-color: #ca6c00;
+}
+
+#education {
+  border-color: #2aa0ec;
+}

@@ -1,0 +1,9 @@
+#contact {
+  position: absolute;
+  margin-left: -200px;
+}
+
+#contact ul li {
+  width: 160px;
+  clear: both;
+}
