@@ -1,0 +1,89 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.icon {
+	background-image: url(../images/icons.png);
+}
+
+.button, .list {
+	position: relative;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	background: rgb(252,255,244); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(223,229,215,1) 40%, rgba(179,190,173,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,255,244,1)), color-stop(40%,rgba(223,229,215,1)), color-stop(100%,rgba(179,190,173,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+}
+
+.icon.arrow {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 12px;
+	height: 12px;
+	background-position: -64px -16px;
+}
+
+.button {
+	display: inline-block;
+	padding: 7px 24px 7px 12px;
+	cursor: pointer;
+	text-shadow: 0 0 1px #777;
+}
+
+.button .icon.arrow {
+	top: 8px;
+	right: 8px;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.list li {
+	border-bottom: 1px solid #aaa;
+	white-space: nowrap;
+}
+
+.list li:last-child {
+	border: 0;
+}
+
+.list li > a {
+	display: block;
+	padding: 7px 12px;
+}
+
+.list li > a:hover {
+	background: rgba(117, 137, 12, .5);
+	color: #fff;
+}
+
+.hoverable {
+	position: relative;
+}
+
+.hoverable > .content {
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 0;
+}
+
+.hoverable:hover > .content {
+	display: block;
+}
